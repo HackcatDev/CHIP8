@@ -1,0 +1,6 @@
+K:\Coding\CHIP8\CHIP8\CHIP8Decompiler\CHIP8Decompiler\bin\Debug\CHIP8Decompiler.dll
+K:\Coding\CHIP8\CHIP8\CHIP8Decompiler\CHIP8Decompiler\bin\Debug\CHIP8Decompiler.pdb
+K:\Coding\CHIP8\CHIP8\CHIP8Decompiler\CHIP8Decompiler\obj\Debug\CHIP8Decompiler.csprojAssemblyReference.cache
+K:\Coding\CHIP8\CHIP8\CHIP8Decompiler\CHIP8Decompiler\obj\Debug\CHIP8Decompiler.csproj.CoreCompileInputs.cache
+K:\Coding\CHIP8\CHIP8\CHIP8Decompiler\CHIP8Decompiler\obj\Debug\CHIP8Decompiler.dll
+K:\Coding\CHIP8\CHIP8\CHIP8Decompiler\CHIP8Decompiler\obj\Debug\CHIP8Decompiler.pdb
