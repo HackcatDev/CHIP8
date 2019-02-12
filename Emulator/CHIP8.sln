@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CHIP8", "CHIP8\CHIP8.csproj", "{E31B982C-EE3B-483D-B0BD-EB86F1C6B4A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CHIP8CPU", "CHIP8CPU\CHIP8CPU.csproj", "{E619E0A0-3F17-4F88-BB10-DDD4BAA20AC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VIRTUALDISPLAY_CHIP8", "VIRTUALDISPLAY_CHIP8\VIRTUALDISPLAY_CHIP8.csproj", "{1D2B702F-82C0-402B-B89D-3E04FB4C55C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputButtons", "InputButtons\InputButtons.csproj", "{05DFA072-BE53-49F1-95DC-553C5E5909E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerForm", "LoggerForm\LoggerForm.csproj", "{10DFB268-2B90-4BB2-A084-64FBD4B4337E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CHIP8Decompiler", "CHIP8Decompiler\CHIP8Decompiler\CHIP8Decompiler.csproj", "{2ED4A5A1-67BB-4E6E-856A-3C8124C59A88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E31B982C-EE3B-483D-B0BD-EB86F1C6B4A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E31B982C-EE3B-483D-B0BD-EB86F1C6B4A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E31B982C-EE3B-483D-B0BD-EB86F1C6B4A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E31B982C-EE3B-483D-B0BD-EB86F1C6B4A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E619E0A0-3F17-4F88-BB10-DDD4BAA20AC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E619E0A0-3F17-4F88-BB10-DDD4BAA20AC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E619E0A0-3F17-4F88-BB10-DDD4BAA20AC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E619E0A0-3F17-4F88-BB10-DDD4BAA20AC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D2B702F-82C0-402B-B89D-3E04FB4C55C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D2B702F-82C0-402B-B89D-3E04FB4C55C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D2B702F-82C0-402B-B89D-3E04FB4C55C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D2B702F-82C0-402B-B89D-3E04FB4C55C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05DFA072-BE53-49F1-95DC-553C5E5909E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05DFA072-BE53-49F1-95DC-553C5E5909E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05DFA072-BE53-49F1-95DC-553C5E5909E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05DFA072-BE53-49F1-95DC-553C5E5909E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10DFB268-2B90-4BB2-A084-64FBD4B4337E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10DFB268-2B90-4BB2-A084-64FBD4B4337E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10DFB268-2B90-4BB2-A084-64FBD4B4337E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10DFB268-2B90-4BB2-A084-64FBD4B4337E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED4A5A1-67BB-4E6E-856A-3C8124C59A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED4A5A1-67BB-4E6E-856A-3C8124C59A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED4A5A1-67BB-4E6E-856A-3C8124C59A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED4A5A1-67BB-4E6E-856A-3C8124C59A88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {726ECBDA-974A-4E92-949E-161794D44EA0}
+	EndGlobalSection
+EndGlobal
