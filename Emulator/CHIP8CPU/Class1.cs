@@ -32,7 +32,7 @@ namespace CHIP8CPU
         public System.Timers.Timer      timers = new System.Timers.Timer(17);
         public bool                     wasStopRequested = false;
         public bool                     hasStopped = false;
-        public int                      emuSpeed = 20;
+        public int                      emuSpeed = 0;
         public bool                     showLog = false;
         public VLogger                  logger = new VLogger();
         public bool                     paused = false;
@@ -193,28 +193,28 @@ namespace CHIP8CPU
         public void DrawSprite(byte X, byte Y, byte N)
         {
             return;
-            VM_REGISTERS[0xF] = 0;
-            //Only CHIP-8 mode is supported
-            if (N == 0) N = 16;
-            for (int yline = 0; yline < N; yline++)
-            {
-                byte data = VM_RAM[VM_REG_I + yline];
-                for (int xpix = 0; xpix < 8; xpix++)
-                {
-                    if ((data & (0x80 >> xpix)) != 0)
-                    {
-                        if ((VM_REGISTERS[X] + xpix) < 64 && (VM_REGISTERS[Y] + yline) < 32 && (VM_REGISTERS[X] + xpix) >= 0 && (VM_REGISTERS[Y] + yline) >= 0)
-                        {
-                            if (VM_DISPLAY[(VM_REGISTERS[X] + xpix) * 2,(VM_REGISTERS[Y] + yline) * 2] == 1) VM_REGISTERS[0xF] = 1;
-                            VM_DISPLAY[(VM_REGISTERS[X] + xpix) * 2     ,  (VM_REGISTERS[Y] + yline) * 2    ] ^= 1;
-                            VM_DISPLAY[(VM_REGISTERS[X] + xpix) * 2 + 1 ,  (VM_REGISTERS[Y] + yline) * 2    ] ^= 1;
-                            VM_DISPLAY[(VM_REGISTERS[X] + xpix) * 2     ,  (VM_REGISTERS[Y] + yline) * 2 + 1] ^= 1;
-                            VM_DISPLAY[(VM_REGISTERS[X] + xpix) * 2 + 1 ,  (VM_REGISTERS[Y] + yline) * 2 + 1] ^= 1;
-                        }
-                    }
-                }
-            }
-            Display.SetDisplayRam(VM_DISPLAY);
+            //VM_REGISTERS[0xF] = 0;
+            ////Only CHIP-8 mode is supported
+            //if (N == 0) N = 16;
+            //for (int yline = 0; yline < N; yline++)
+            //{
+            //    byte data = VM_RAM[VM_REG_I + yline];
+            //    for (int xpix = 0; xpix < 8; xpix++)
+            //    {
+            //        if ((data & (0x80 >> xpix)) != 0)
+            //        {
+            //            if ((VM_REGISTERS[X] + xpix) < 64 && (VM_REGISTERS[Y] + yline) < 32 && (VM_REGISTERS[X] + xpix) >= 0 && (VM_REGISTERS[Y] + yline) >= 0)
+            //            {
+            //                if (VM_DISPLAY[(VM_REGISTERS[X] + xpix) * 2,(VM_REGISTERS[Y] + yline) * 2] == 1) VM_REGISTERS[0xF] = 1;
+            //                VM_DISPLAY[(VM_REGISTERS[X] + xpix) * 2     ,  (VM_REGISTERS[Y] + yline) * 2    ] ^= 1;
+            //                VM_DISPLAY[(VM_REGISTERS[X] + xpix) * 2 + 1 ,  (VM_REGISTERS[Y] + yline) * 2    ] ^= 1;
+            //                VM_DISPLAY[(VM_REGISTERS[X] + xpix) * 2     ,  (VM_REGISTERS[Y] + yline) * 2 + 1] ^= 1;
+            //                VM_DISPLAY[(VM_REGISTERS[X] + xpix) * 2 + 1 ,  (VM_REGISTERS[Y] + yline) * 2 + 1] ^= 1;
+            //            }
+            //        }
+            //    }
+            //}
+            //Display.SetDisplayRam(VM_DISPLAY);
             //Display.Draw();
         }
 
@@ -451,12 +451,16 @@ namespace CHIP8CPU
                     switch (opcode & 0x00FF)
                     {
                         case 0x9E:              // EX9E - skip next instruction if key VX down
-                            if (Buttons.BtnsPressed[VM_REGISTERS[((opcode & 0x0F00) >> 8)]] == 1)
+                            int __k = Buttons.BtnsPressed[VM_REGISTERS[((opcode & 0x0F00) >> 8)]];
+                            Buttons._lastCallKey = VM_REGISTERS[((opcode & 0x0F00) >> 8)];
+                            if (__k == 1)
                                VM_CODE_PTR+= 2;
                             break;
 
                         case 0xA1:              // EXA1 - skip next instruction if key VX up
-                            if (Buttons.BtnsPressed[VM_REGISTERS[((opcode & 0x0F00) >> 8)]] == 0)
+                            int __kh = Buttons.BtnsPressed[VM_REGISTERS[((opcode & 0x0F00) >> 8)]];
+                            Buttons._lastCallKey = VM_REGISTERS[((opcode & 0x0F00) >> 8)];
+                            if (__kh == 0)
                                VM_CODE_PTR+= 2;
                             break;
 
@@ -477,7 +481,9 @@ namespace CHIP8CPU
                            VM_CODE_PTR-= 2;
                             for (byte ng = 0; ng < 16; ng++)
                             {
-                                if (Buttons.BtnsPressed[ng] == 1)
+                                int __lk = Buttons.BtnsPressed[ng];
+                                Buttons._lastCallKey = ng;
+                                if (__lk == 1)
                                 {
                                     VM_REGISTERS[((opcode & 0x0F00) >> 8)] = ng;
                                    VM_CODE_PTR+= 2;

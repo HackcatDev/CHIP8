@@ -30,7 +30,7 @@ namespace CHIP8Decompiler {
                 case 0x0000:
                     switch (opcode & 0x00FF) {
                         case 0x00E0:
-                            return "disp_clear()";
+                            return "clear_display()";
                         case 0x00EE:
                             return "return";
                         default:
@@ -85,7 +85,7 @@ namespace CHIP8Decompiler {
                 case 0xB000:
                     return $"PC = V0 + {opcode & 0x0FFF}";
                 case 0xC000:
-                    return $"V{GetX(opcode)} = rand() & {opcode & 0x00FF}";
+                    return $"V{GetX(opcode)} = random() & {opcode & 0x00FF}";
                 case 0xD000:
                     return $"draw({GetX(opcode)}, {GetY(opcode)}, {opcode & 0x000F})";
                 case 0xE000:
