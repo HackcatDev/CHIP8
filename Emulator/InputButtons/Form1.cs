@@ -1,4 +1,4 @@
-﻿    using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -93,14 +93,14 @@ namespace InputButtons
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
             //return;
-            if (!"0123456789ABCDEFabcdef".Contains(e.KeyCode.ToString())) return;
+            if (!"0123456789ABCDEFabcdef".Contains(e.KeyCode.ToString().ToUpper())) return;
             OnButtonPress(Convert.ToInt32("0x" + e.KeyCode.ToString(), 16), true);
         }
 
         private void Form1_KeyUp(object sender, KeyEventArgs e)
         {
             //return;
-            if (!"0123456789ABCDEFabcdef".Contains(e.KeyCode.ToString())) return;
+            if (!"0123456789ABCDEFabcdef".Contains(e.KeyCode.ToString().ToUpper())) return;
             OnButtonPress(Convert.ToInt32("0x" + e.KeyCode.ToString(), 16), false);
         }
     }

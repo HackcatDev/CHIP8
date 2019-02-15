@@ -18,3 +18,13 @@ K:\Coding\CHIP8\CHIP8\VIRTUALDISPLAY_CHIP8\obj\Debug\VIRTUALDISPLAY_CHIP8.csproj
 K:\Coding\CHIP8\CHIP8\VIRTUALDISPLAY_CHIP8\obj\Debug\VIRTUALDISPLAY_CHIP8.csproj.CoreCompileInputs.cache
 K:\Coding\CHIP8\CHIP8\VIRTUALDISPLAY_CHIP8\obj\Debug\VIRTUALDISPLAY_CHIP8.exe
 K:\Coding\CHIP8\CHIP8\VIRTUALDISPLAY_CHIP8\obj\Debug\VIRTUALDISPLAY_CHIP8.pdb
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\VIRTUALDISPLAY_CHIP8\bin\Debug\VIRTUALDISPLAY_CHIP8.exe.config
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\VIRTUALDISPLAY_CHIP8\bin\Debug\VIRTUALDISPLAY_CHIP8.exe
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\VIRTUALDISPLAY_CHIP8\bin\Debug\VIRTUALDISPLAY_CHIP8.pdb
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\VIRTUALDISPLAY_CHIP8\obj\Debug\VIRTUALDISPLAY_CHIP8.csprojAssemblyReference.cache
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\VIRTUALDISPLAY_CHIP8\obj\Debug\VIRTUALDISPLAY_CHIP8.VDisplay.resources
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\VIRTUALDISPLAY_CHIP8\obj\Debug\VIRTUALDISPLAY_CHIP8.Properties.Resources.resources
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\VIRTUALDISPLAY_CHIP8\obj\Debug\VIRTUALDISPLAY_CHIP8.csproj.GenerateResource.cache
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\VIRTUALDISPLAY_CHIP8\obj\Debug\VIRTUALDISPLAY_CHIP8.csproj.CoreCompileInputs.cache
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\VIRTUALDISPLAY_CHIP8\obj\Debug\VIRTUALDISPLAY_CHIP8.exe
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\VIRTUALDISPLAY_CHIP8\obj\Debug\VIRTUALDISPLAY_CHIP8.pdb

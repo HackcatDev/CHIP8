@@ -18,3 +18,13 @@ K:\Coding\CHIP8\CHIP8\LoggerForm\obj\Debug\LoggerForm.csproj.GenerateResource.ca
 K:\Coding\CHIP8\CHIP8\LoggerForm\obj\Debug\LoggerForm.csproj.CoreCompileInputs.cache
 K:\Coding\CHIP8\CHIP8\LoggerForm\obj\Debug\LoggerForm.exe
 K:\Coding\CHIP8\CHIP8\LoggerForm\obj\Debug\LoggerForm.pdb
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\LoggerForm\bin\Debug\LoggerForm.exe.config
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\LoggerForm\bin\Debug\LoggerForm.exe
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\LoggerForm\bin\Debug\LoggerForm.pdb
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\LoggerForm\obj\Debug\LoggerForm.csprojAssemblyReference.cache
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\LoggerForm\obj\Debug\LoggerForm.VLogger.resources
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\LoggerForm\obj\Debug\LoggerForm.Properties.Resources.resources
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\LoggerForm\obj\Debug\LoggerForm.csproj.GenerateResource.cache
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\LoggerForm\obj\Debug\LoggerForm.csproj.CoreCompileInputs.cache
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\LoggerForm\obj\Debug\LoggerForm.exe
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\LoggerForm\obj\Debug\LoggerForm.pdb

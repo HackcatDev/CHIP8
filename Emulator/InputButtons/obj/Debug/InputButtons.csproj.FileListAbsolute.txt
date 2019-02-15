@@ -18,3 +18,13 @@ K:\Coding\CHIP8\CHIP8\InputButtons\obj\Debug\InputButtons.csproj.GenerateResourc
 K:\Coding\CHIP8\CHIP8\InputButtons\obj\Debug\InputButtons.csproj.CoreCompileInputs.cache
 K:\Coding\CHIP8\CHIP8\InputButtons\obj\Debug\InputButtons.exe
 K:\Coding\CHIP8\CHIP8\InputButtons\obj\Debug\InputButtons.pdb
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\InputButtons\bin\Debug\InputButtons.exe.config
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\InputButtons\bin\Debug\InputButtons.exe
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\InputButtons\bin\Debug\InputButtons.pdb
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\InputButtons\obj\Debug\InputButtons.csprojAssemblyReference.cache
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\InputButtons\obj\Debug\InputButtons.Form1.resources
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\InputButtons\obj\Debug\InputButtons.Properties.Resources.resources
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\InputButtons\obj\Debug\InputButtons.csproj.GenerateResource.cache
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\InputButtons\obj\Debug\InputButtons.csproj.CoreCompileInputs.cache
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\InputButtons\obj\Debug\InputButtons.exe
+C:\Users\Vitalik\Documents\GitHub\CHIP8\Emulator\InputButtons\obj\Debug\InputButtons.pdb
